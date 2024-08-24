@@ -1,13 +1,13 @@
-import Image from "next/image";
-
-import Logo from "../../public/imgs/brand-logo-dark.jpg";
-
 export default function Home() {
   return (
     <main>
       <div className="flex flex-col lg:flex-row items-center lg:justify-center mt-52 lg:m-0 h-screen">
         <div>
-          <Image src={Logo} alt="" className="h-24 md:h-40 w-auto" />
+          <img
+            src="/brand-logo-dark.jpg"
+            alt=""
+            className="h-24 md:h-40 w-auto"
+          />
         </div>
         <div className="text-center mt-10 animate-slidein ">
           <p className="mb-3 tracking-wide text-sm md:text-base">
